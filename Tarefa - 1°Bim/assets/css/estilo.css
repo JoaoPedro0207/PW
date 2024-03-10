@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+button{
+    padding: 2rem 7rem;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.4rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    *{
+        display: inline-block;
+    }
+
+    h1{
+        position: fixed;
+        top: 100px;
+        right: 200px;
+    }
+
+    div{
+        position: fixed;
+        top: 20px;
+        left: 150px;
+    }
+
+    p{
+        position: relative;
+        top: 285px;
+        text-align: center;
+        font-size: 1.4rem;;
+    }
+
+    button{
+        position: relative;
+        top: 320px;
+        text-align: center;
+        padding: 2rem 7rem;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    h1{
+        position: fixed;
+        top: 100px;
+        right: 300px;
+        text-align: center;
+    }
+
+    div{
+        position: fixed;
+        top: 20px;
+        left: 150px;
+    }
+
+   p{
+        position: fixed;
+        top: 175px;
+        text-align: right;
+        text-align: center;
+        right: 90px;
+        left: 510px;
+        font-size: 1.4rem;
+   }
+
+   button{
+        position: relative;
+        top: 390px;
+        text-align: center;
+        font-size: 2rem;
+        padding: 2rem 10rem;
+        left: 200px;
+   }
+}
